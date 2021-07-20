@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Pusat Informasi Covid-19 Kota Cirebon</title>
+  </head>
+  <body>
+      <!-- judul -->
+    <h1 class="text-center">Pusat Informasi Covid-19 Kota Cirebon</h1>
+<!-- Nav bar -->
+<ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Informasi </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Data</a>
+  </li>
+</ul>
+<!-- Konten -->
+<div id="konten" class="container-fluid row">
+  <div class="col-3">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Terkonfirmasi</h5>
+        <p class="card-text">Total : 9863</p>
+        <p>Isolasi : 2244</p>
+        <p>Telah isolasi : 7245</p>
+        <p>Meninggal : 374</p>
+      </div>
+    </div><div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Vaksin</h5>
+        <p class="card-text">Total : 262.198</p>
+        <p>TOTAL VAKSINASI KE-1 : 88.361
+          33,70%</p>
+        <p>TOTAL VAKSINASI KE-2 : 44.21
+          16,86%</p>
+      </div>
+    </div><div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Suspek</h5>
+        <p class="card-text">Total : 1064</p>
+        <p>Isolasi : 146</p>
+        <p>Telah isolasi : 906</p>
+        <p>Meninggal : 12</p>
+      </div>
+    </div><div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Kontak Erat</h5>
+        <p class="card-text">Total : 9969</p>
+        <p>Karantina : 648 </p>
+        <p>Selesai Karantina : 9321</p>
+        <p>Meninggal : -</p> 
+      </div>
+    </div>
+  </div>
+  <div class="col-9">
+    <h3 class="text-center">UPDATE: Tambah 34.257 Orang, Total Kasus Covid-19 Indonesia 2.911.733</h3>
+  <p>JAKARTA, KOMPAS.com - Pemerintah kembali melaporkan adanya penambahan kasus harian Covid-19, angka kematian, serta jumlah pasien yang menjalani perawatan di rumah sakit. Data Satuan Tugas Penanganan Covid-19 pada Senin (19/7/2021) pukul 12.00 WIB menunjukkan, ada penambahan 34.257 kasus baru Covid-19 dalam 24 jam terakhir. Penambahan itu menyebabkan total kasus Covid-19 di Indonesia saat ini mencapai 2.911.733 orang, terhitung sejak kasus pertama diumumkan Presiden Joko Widodo pada 2 Maret 2020.</p>
+  <p>Data yang sama menunjukkan harapan dengan bertambahnya pasien sembuh setelah terpapar Covid-19. Dalam sehari, jumlah pasien yang sembuh setelah terinfeksi virus corona bertambah 32.217 orang.</p>
+  <p>Dengan demikian, jumlah pasien Covid-19 yang sembuh di Indonesia hingga saat ini mencapai 2.293.875 orang.</p>
+  <p>Akan tetapi, jumlah pasien yang meninggal setelah terpapar Covid-19 juga terus bertambah. Pada periode 18-19 Juli 2021, ada 1.338 pasien Covid-19 yang tutup usia. Ini merupakan angka kematian tertinggi selama pandemi berlangsung di Indonesia. Sehingga, angka kematian akibat Covid-19 mencapai 74.920 orang sejak awal pandemi.</p>  
+  <p>Dengan data tersebut, maka saat ini tercatat ada 542.938 kasus aktif Covid-19 di Indonesia. Kasus aktif adalah pasien yang masih terkonfirmasi positif virus corona, dan menjalani perawatan di rumah sakit atau isolasi mandiri. Selain itu, pemerintah juga mencatat bahwa kini terdapat 269.455 orang yang berstatus suspek. Kasus Covid-19 saat ini sudah berlangsung di 510 kabupaten/kota yang tersebar di seluruh provinsi, dari Aceh hingga Papua. Ini berarti sudah lebih dari 99 persen wilayah di Tanah Air yang terdampak penularan virus corona.</p>
+
+</div>
+  <!-- Footer -->
+  <div>
+    <p ondblclick="dbclik()" >Pencet</p>
+    <span id="Images"></span>
+  </div>
+</div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script>
+  function dbclik(){
+    var gambar = new Image(250, 500);
+    gambar.src = 'https://img.beritasatu.com/beritasatu/original/1621301980.jpg';
+    x = document.getElementById("Images");
+    x.appendChild(gambar);
+  }
+</script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  
+  </body>
+</html>
